@@ -27,3 +27,6 @@ C:\Users\st310-10\Desktop\karamov\pract7\obj\Debug\net8.0-windows\pract7.csproj.
 C:\Users\st310-10\Desktop\karamov\pract7\obj\Debug\net8.0-windows\pract7_Content.g.cs
 C:\Users\st310-10\Desktop\karamov\pract7\obj\Debug\net8.0-windows\pract7.csproj.Up2Date
 C:\Users\st310-10\Desktop\karamov\pract7\obj\Debug\net8.0-windows\App.baml
+C:\Users\st310-10\Desktop\karamov\pract7\obj\Debug\net8.0-windows\pract7.sourcelink.json
+C:\Users\st310-10\Desktop\karamov\pract7\obj\Debug\net8.0-windows\Pages\DeviceForm.g.cs
+C:\Users\st310-10\Desktop\karamov\pract7\obj\Debug\net8.0-windows\Pages\DeviceForm.baml

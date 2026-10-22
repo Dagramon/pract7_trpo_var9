@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|c:\\users\\st310-10\\desktop\\karamov\\pract7\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|c:\\users\\st310-10\\desktop\\karamov\\pract7\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|c:\\users\\st310-10\\desktop\\karamov\\pract7\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|c:\\users\\st310-10\\desktop\\karamov\\pract7\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|c:\\users\\st310-10\\desktop\\karamov\\pract7\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|solutionrelative:api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|c:\\users\\st310-10\\desktop\\karamov\\pract7\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|c:\\users\\st310-10\\desktop\\karamov\\pract7\\model\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|solutionrelative:model\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|c:\\users\\st310-10\\desktop\\karamov\\pract7\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|c:\\users\\st310-10\\desktop\\karamov\\pract7\\pages\\deviceform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|solutionrelative:pages\\deviceform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|c:\\users\\st310-10\\desktop\\karamov\\pract7\\pages\\deviceform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|solutionrelative:pages\\deviceform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|c:\\users\\st310-10\\desktop\\karamov\\pract7\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|c:\\users\\st310-10\\desktop\\karamov\\pract7\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|solutionrelative:api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|c:\\users\\st310-10\\desktop\\karamov\\pract7\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3D512EA9-8147-4420-8ABC-842790435516}|pract7.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +46,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeviceForm.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\Pages\\DeviceForm.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\DeviceForm.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\Pages\\DeviceForm.xaml.cs",
+              "RelativeToolTip": "Pages\\DeviceForm.xaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAUwEIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T07:43:49.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\Model\\Device.cs",
+              "RelativeDocumentMoniker": "Model\\Device.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\Model\\Device.cs",
+              "RelativeToolTip": "Model\\Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T07:37:56.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeviceForm.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\Pages\\DeviceForm.xaml",
+              "RelativeDocumentMoniker": "Pages\\DeviceForm.xaml",
+              "ToolTip": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\Pages\\DeviceForm.xaml",
+              "RelativeToolTip": "Pages\\DeviceForm.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-22T07:30:32.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "API.cs",
               "DocumentMoniker": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\API.cs",
               "RelativeDocumentMoniker": "API.cs",
               "ToolTip": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\API.cs",
               "RelativeToolTip": "API.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAB8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAswEYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-15T07:51:55.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -67,26 +113,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Device.cs",
-              "DocumentMoniker": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\Model\\Device.cs",
-              "RelativeDocumentMoniker": "Model\\Device.cs",
-              "ToolTip": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\Model\\Device.cs",
-              "RelativeToolTip": "Model\\Device.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T07:21:59.926Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\Pages\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\Pages\\MainPage.xaml.cs*",
-              "RelativeToolTip": "Pages\\MainPage.xaml.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAkwCIAAAA5AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAADwv0sAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-15T07:02:00.281Z",
               "EditorCaption": ""
@@ -105,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\st310-10\\Desktop\\karamov\\pract7\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",

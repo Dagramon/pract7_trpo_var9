@@ -3,6 +3,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -41,6 +42,7 @@ namespace pract7.Pages
             InitializeComponent();
             isPatch = true;
             DataContext = currentDevice;
+            currentDevice.Id = index;
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
@@ -50,43 +52,55 @@ namespace pract7.Pages
 
         private async void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-            if (isPatch)
+            try
             {
-                var result = await api.Patch(currentDevice, currentDevice.Id);
-                if (result.IsSuccessStatusCode)
+                if (isPatch)
+                {
+                    var result = await api.Patch(currentDevice, currentDevice.Id);
+                    if (result.IsSuccessStatusCode)
+                    {
+                        MessageBox.Show("Девайс сохранён");
+                        NavigationService.GoBack();
+                    }
+                    else
+                    {
+                        MessageBox.Show(result.Content.ToString(), "Ошибка сохранения");
+                    }
+                    return;
+                }
+                if (string.IsNullOrEmpty(currentDevice.Name) || string.IsNullOrEmpty(currentDevice.Manufacturer) || currentDevice.Price < 0 || currentDevice.Quantity < 0 || currentDevice.IsActive == null)
+                {
+                    MessageBox.Show("Неккоректные данные");
+                    return;
+                }
+                if (isEdit)
+                {
+                    var result = await api.Put(currentDevice, currentDevice.Id);
+                    if (result.IsSuccessStatusCode)
+                    {
+                        MessageBox.Show("Девайс сохранён");
+                        NavigationService.GoBack();
+                    }
+                    else
+                    {
+                        MessageBox.Show(result.Content.ToString(), "Ошибка сохранения");
+                    }
+                    return;
+                }
+                var response = await api.Post(currentDevice);
+                if (response.IsSuccessStatusCode)
                 {
                     MessageBox.Show("Девайс сохранён");
                     NavigationService.GoBack();
                 }
                 else
                 {
-                    MessageBox.Show(result.Content.ToString(), "Ошибка сохранения");
+                    MessageBox.Show(response.Content.ToString(), "Ошибка сохранения");
                 }
-                return;
             }
-            if (isEdit)
+            catch (HttpRequestException ex)
             {
-                var result = await api.Put(currentDevice, currentDevice.Id);
-                if (result.IsSuccessStatusCode)
-                {
-                    MessageBox.Show("Девайс сохранён");
-                    NavigationService.GoBack();
-                }
-                else
-                {
-                    MessageBox.Show(result.Content.ToString(), "Ошибка сохранения");
-                }
-                return;
-            }
-            var response = await api.Post(currentDevice);
-            if (response.IsSuccessStatusCode)
-            {
-                MessageBox.Show("Девайс сохранён");
-                NavigationService.GoBack();
-            }
-            else
-            {
-                MessageBox.Show(response.Content.ToString(), "Ошибка сохранения");
+                MessageBox.Show("Сервер недоступен");
             }
         }
     }

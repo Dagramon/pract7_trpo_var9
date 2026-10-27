@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -26,7 +27,7 @@ namespace pract7.Pages
     {
         API api = new API();
         public ObservableCollection<Device> devices { get; set; } = new();
-        public Device selectedDevice { get; set; } = new();
+        public Device selectedDevice { get; set; } = null;
         public string filterManufacture { get; set; } = string.Empty;
         public decimal filterMinPrice { get; set; } = 0;
 
@@ -37,11 +38,18 @@ namespace pract7.Pages
 
         private async void DeviceList_Loaded(object sender, RoutedEventArgs e)
         {
-            var result = await api.Get();
-            devices.Clear();
-            foreach (var item in result)
+            try
             {
-                devices.Add(item);
+                var result = await api.Get();
+                devices.Clear();
+                foreach (var item in result)
+                {
+                    devices.Add(item);
+                }
+            }
+            catch (HttpRequestException)
+            {
+                MessageBox.Show("Сервер недоступен");
             }
         }
 
@@ -51,11 +59,26 @@ namespace pract7.Pages
         }
         private void GoEdit_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new DeviceForm(selectedDevice));
+            if (selectedDevice != null)
+            {
+                NavigationService.Navigate(new DeviceForm(selectedDevice));
+
+            }
+            else
+            {
+                MessageBox.Show("Выберите девайс");
+            }
         }
         private void GoPatch_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new DeviceForm(selectedDevice.Id));
+            if (selectedDevice != null)
+            {
+                NavigationService.Navigate(new DeviceForm(selectedDevice.Id));
+            }
+            else
+            {
+                MessageBox.Show("Выберите девайс");
+            }
         }
         private async void Remove_Click(object sender, RoutedEventArgs e)
         {

@@ -72,10 +72,10 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <Border Background="White" 
-                    BorderBrush="#E0E0E0" 
-                    BorderThickness="1" 
-                    CornerRadius="8" 
-                    Padding="12,10">
+                            BorderBrush="#E0E0E0" 
+                            BorderThickness="1" 
+                            CornerRadius="8" 
+                            Padding="12,10">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
@@ -84,22 +84,22 @@
 
                             <StackPanel Grid.Column="0" VerticalAlignment="Center" Margin="0,0,12,0">
                                 <TextBlock Text="{Binding Name}" 
-                                   FontSize="16" 
-                                   FontWeight="SemiBold" 
-                                   Foreground="#212121" />
+                                           FontSize="16" 
+                                           FontWeight="SemiBold" 
+                                           Foreground="#212121" />
 
                                 <TextBlock Text="{Binding Manufacturer}" 
-                                   FontSize="13" 
-                                   Foreground="#757575" 
-                                   Margin="0,2,0,0" />
+                                           FontSize="13" 
+                                           Foreground="#757575" 
+                                           Margin="0,2,0,0" />
                             </StackPanel>
 
                             <StackPanel Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right">
                                 <TextBlock Text="{Binding Price, StringFormat='{}{0:C}'}" 
-                                   FontSize="15" 
-                                   FontWeight="Bold" 
-                                   Foreground="#2E7D32" 
-                                   HorizontalAlignment="Right" />
+                                           FontSize="15" 
+                                           FontWeight="Bold" 
+                                           Foreground="#2E7D32" 
+                                           HorizontalAlignment="Right" />
 
                                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,4,0,0">
                                     <TextBlock Text="Кол-во: " FontSize="12" Foreground="#9E9E9E" />
@@ -119,7 +119,7 @@
                                                 </Style.Triggers>
                                             </Style>
                                         </Border.Style>
-                                        <TextBlock FontSize="11" FontWeight="Medium">
+                                        <TextBlock FontSize="11">
                                             <TextBlock.Style>
                                                 <Style TargetType="TextBlock">
                                                     <Setter Property="Text" Value="Неактивен" />
